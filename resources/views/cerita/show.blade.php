@@ -45,11 +45,11 @@
             </tr>
             <tr>
                 <th>Deskripsi</th>
-                <td><textarea class="form-control" disabled="true" cols="100" rows="5">{{ $cerita->deskripsi }}</textarea></td>
+                <td><p>{{ $cerita->deskripsi }}</p></td>
             </tr>
             <tr>
                 <th>Cerita</th>
-                <td><textarea class="ckeditor" id="ckedtor" disabled="true">{{ $cerita->cerita }}</textarea></td>
+                <td><p>{!! ($cerita->cerita) !!}</p></td>
             </tr>
         </table>
     </div>

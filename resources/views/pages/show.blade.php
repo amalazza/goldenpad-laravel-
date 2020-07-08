@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>SiswakuApp</title>
+    <title>Goldenpad</title>
 
     {{-- Memanggil Bootstrap. Komentar ini tidak akan tampak di browser. --}}
     <link href="{{ asset('bootstrap-3.3.6-dist/css/bootstrap.min.css') }}" rel="stylesheet">
